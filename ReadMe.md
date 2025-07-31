@@ -9,14 +9,14 @@ RetailVisor is a professional business intelligence dashboard designed using Pow
 - **Tool**: Power BI Desktop  
 - **Purpose**: Analyze sales data and provide insights  
 - **Scope**: Track sales, profit, and product trends across regions and categories  
-- **Duration**: One-year data (12 months)
+- **Duration**: Four-year data (48 months) - (2014-2017)
 
 ---
 
 ## 🔧 Tools & Technologies
 
 - Power BI Desktop  
-- Microsoft Excel / SQL (for preprocessing if required)  
+- Microsoft Excel / SQL (for preprocessing)  
 - DAX (Data Analysis Expressions)  
 - Power BI Map and Custom Visuals
 
@@ -24,7 +24,7 @@ RetailVisor is a professional business intelligence dashboard designed using Pow
 
 ## 🗂️ Data Description
 
-| Feature           | Description                              |
+| Main Feature     | Description                              |
 |------------------|------------------------------------------|
 | Order ID         | Unique transaction ID                    |
 | Order Date       | Date of order                            |
@@ -36,18 +36,6 @@ RetailVisor is a professional business intelligence dashboard designed using Pow
 
 ---
 
-## 📊 Key DAX Metrics
-
-| Measure           | Formula / Purpose                              |
-|-------------------|------------------------------------------------|
-| Total Sales       | `SUM(Sales)`                                   |
-| Total Profit      | `SUM(Profit)`                                  |
-| Profit Margin     | `(SUM(Profit) / SUM(Sales))`                   |
-| Total Orders      | `DISTINCTCOUNT(Order ID)`                      |
-| Product Quantity  | `SUM(Quantity)`                                |
-
----
-
 ## 📈 Visualizations
 
 | Visual                          | Purpose                                                                 |
@@ -55,28 +43,8 @@ RetailVisor is a professional business intelligence dashboard designed using Pow
 | **KPI Cards**                   | Show Total Sales, Profit, Orders, Profit Margin                         |
 | **Line Chart**                 | Monthly trend of Sales and Profit                                       |
 | **Bar Chart (Horizontal)**     | Top Products by Sales, categorized by Product Category                  |
-| **Map with Pie Charts**        | State-wise quantity sold with category distribution                    |
 | **Slicers (Month, Year, State, Category)** | Enable quick filtering of data                              |
-| **Reset Filters Button**       | Clears all filters using bookmark functionality                        |
 | **Conditional Formatting Cards**| Green for good profit margin, Red for poor performance (DAX-based)     |
-
----
-
-## 📌 Insights Gained
-
-- Technology dominates in sales but has thinner margins.
-- November and December are peak months — likely due to holiday seasons.
-- Canon and Fellowes products top the sales list.
-- California, Texas, and New York lead in product quantity sold.
-
----
-
-## 🧱 Challenges Faced
-
-- Crafting DAX formulas for dynamic color cards.  
-- Designing an informative yet uncluttered layout.  
-- Customizing map visuals with meaningful pie overlays.  
-- Maintaining responsiveness of visuals with multiple slicers active.
 
 ---
 
@@ -104,8 +72,8 @@ RetailVisor successfully converts raw retail data into insightful visuals. The i
 
 ---
 
-## 👨‍💻 Developed By
-**Vivek Kadam (Ganu)**  
-3rd Year Engineering Student – AI & DS  
+## 👨‍💻 Made with ❤️ by
+**Vivek Kadam**  
+Final Year Engineering Student – AI & DS  
 RetailVisor Project – 2025
 
