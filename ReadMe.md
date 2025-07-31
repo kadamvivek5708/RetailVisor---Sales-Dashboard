@@ -72,8 +72,8 @@ RetailVisor successfully converts raw retail data into insightful visuals. The i
 
 ---
 
-## 👨‍💻 Made with ❤️ by
-**Vivek Kadam**  
+## 👨‍💻 Made with ❤️ by **Vivek** 
+ 
 Final Year Engineering Student – AI & DS  
 RetailVisor Project – 2025
 
