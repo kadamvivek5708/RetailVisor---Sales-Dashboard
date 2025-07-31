@@ -68,7 +68,7 @@ RetailVisor successfully converts raw retail data into insightful visuals. The i
 
 ## 🖼️ Preview
 
-> ![Sales Dashboard Screenshot](./your-image-path.png)
+> ![Sales Dashboard Screenshot](./img1.png)
 
 ---
 
